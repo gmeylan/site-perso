@@ -1,0 +1,54 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    background: black;
+    background-size: cover;
+    color: black;
+    margin: 1rem;
+    padding: 1rem;
+    height: 100vh;
+}
+
+h1, h2, h3, p {
+    font-weight: 300;
+    padding: 0.5rem;
+}
+
+.bg-text {
+    font-weight: 300;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    text-align: left;
+}
+
+  .bg-link {
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    text-align: left;
+}
+  
+#linkedin-link {
+    color: #222;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap
+}
+
+a:hover {
+    filter: invert(.5) sepia(1) saturate(5) hue-rotate(175deg)
+}
+
+a {
+    padding: 0px;
+}
+
+.logo {
+    filter: invert(.5) sepia(1) saturate(5) hue-rotate(175deg);
+    padding-left: 15px
+}
+
+.repo:hover img{
+    transform: scale(1.5);
+}
