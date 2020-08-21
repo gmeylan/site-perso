@@ -9,7 +9,10 @@ body {
     height: 100vh;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
     font-weight: 300;
     padding: 0.5rem;
 }
@@ -18,17 +21,17 @@ h1, h2, h3, p {
     font-weight: 300;
     color: white;
     font-weight: bold;
-    padding: 20px;
+    padding: 2rem;
     text-align: left;
 }
 
-  .bg-link {
+.bg-link {
     color: white;
     font-weight: bold;
-    padding: 20px;
+    padding: 2rem;
     text-align: left;
 }
-  
+
 #linkedin-link {
     color: #222;
     color: white;
@@ -39,15 +42,12 @@ a:hover {
     filter: invert(.5) sepia(1) saturate(5) hue-rotate(175deg)
 }
 
-a {
-    padding: 0px;
-}
-
 .logo {
     filter: invert(.5) sepia(1) saturate(5) hue-rotate(175deg);
-    padding-left: 15px
+    padding-left: 2rem;
+    margin-bottom: 2rem;
 }
 
-.repo:hover img{
+.repo:hover img {
     transform: scale(1.5);
 }
