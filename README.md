@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/209e12c3-5935-4e43-a743-2cb5b71a0fe7/deploy-status)](https://app.netlify.com/sites/tender-lovelace-1f7312/deploys)
