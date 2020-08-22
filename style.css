@@ -1,6 +1,6 @@
 body {
     font-family: "Open Sans", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     background: black;
     background-size: cover;
     color: black;
@@ -13,17 +13,24 @@ h1,
 h2,
 h3,
 p {
-    font-weight: 300;
+    font-weight: 400;
     padding: 0.5rem;
 }
 
 @media screen AND (max-width: 460px) {
-    p.img-wrapper { flex-wrap: wrap; justify-content: center }
-    .bg-text { text-align: justify }
+    p.img-wrapper {
+        flex-wrap: wrap;
+        justify-content: center
     }
+    .bg-text {
+        text-align: justify
+    }
+}
+
 .bg-text {
-    max-width: 930px; margin: 0 auto;
-    font-weight: 300;
+    max-width: 930px;
+    margin: 0 auto;
+    font-weight: 400;
     color: white;
     font-weight: bold;
     padding: 2rem;
